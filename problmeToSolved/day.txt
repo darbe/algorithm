@@ -6,3 +6,4 @@
 awk sed
 eppol
 死锁问题
+最小公约数  质数
