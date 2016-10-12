@@ -21,7 +21,7 @@ class LoginHelper:
             response = self.opener.open(request)
             url = response.geturl()
             print(url)
-            url = urllib2.urlopen('').geturl()
+            url = urllib2.urlopen('http://www.renren.com').geturl()
             print(url)
             if re.match('http://www.renren.com/[\d]{9}',url):
                 print('success')
@@ -33,3 +33,6 @@ class LoginHelper:
             print(e.message)
             return False
 
+#9e86d9a1d286f43db1d4a3076d13f0502645d8db48c999296ebbf46a5ade7bb8
+#rkey:fd4378b382ab3ad2e7c353aaadb17726
+#1073889058@qq.com
