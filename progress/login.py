@@ -1,5 +1,5 @@
-import urllib2
-import cookielib
+import urllib
+import http.cookiejar
 class LoginHelper:
 	def __init__ (self,username,passwd,path):
 		self.username = username
